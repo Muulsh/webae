@@ -1,9 +1,10 @@
 # webae
 View a me system in the browser
+
 Demo : https://shokokuki.ga/webae/
 
 # requirements
-- a webserver (replace the server path with your server)
+- a webserver
 - opencomputer
 - applied energistics 2
 
