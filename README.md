@@ -11,4 +11,4 @@ Demo : https://shokokuki.ga/webae/
 # how to install
 - replace the server path with your server
 - run the oc program (in /oc) in a computer connected to a me system with the adaptater
-- palce the files in /phpserver in your php server
+- palce the files in /webae in your php server
