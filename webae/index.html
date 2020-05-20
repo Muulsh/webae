@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AE</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="items.css">
+</head>
+<body onresize="centeritemsdisplay()">
+    <div class="app">
+        <div class="activitybar">
+            <div class="left"> 
+                <span onclick="downaloaditems()" id="activityname">AE - items</span><br>
+                <span id="status"></span>
+            </div>
+            <div class="middle">
+            </div>
+            <div class="right">
+                <input type="text" placeholder="search" id="activitysearch">
+            </div>
+        </div>
+        <div onresize="centeritemsdisplay()" class="itemdisplaycontainer">
+            <div class="itemsdisplay" id="itemsdisplay">
+                <h3>loading....</h3>
+            </div>
+        </div>
+        <div id="itemtoast"></div>
+    </div>
+    <script src="items.js"></script>
+</body>
+</html>

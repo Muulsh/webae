@@ -1,0 +1,39 @@
+body, .app {
+    padding:0;
+    margin:0;
+}
+.app {
+    padding-top: 60px;
+}
+.activitybar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: calc(100vw - 30px);
+    top:0;
+    background: #009688;
+    color: white;
+    padding: 15px;
+    z-index: 1000;
+}
+#activitysearch {
+    width: 25vw;
+    max-width: 300px;
+    min-width: 200px;
+    height: 15px;
+    padding: 5px;
+    border: solid black;
+    border-width: 1px;
+    background: rgb(238, 238, 238);
+}
+.right > * {
+    margin-right: 5px;
+}
+.left > * {
+    margin-left: 5px;
+}
+#activityname:hover {
+    cursor: pointer;
+}
